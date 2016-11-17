@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Android UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#673AB7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link rel="shortcut icon" href="fav.ico">
+    <link href="fav.ico" rel="icon" sizes="192x192">
+    <link rel="apple-touch-icon" href="fav.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="wrapper centered">
+        <div class="base centered">
+            <div class="speaker centered-x"></div>
+            <section class="screen centered">
+                <div class="noti-wrapper centered-x">
+                    <div class="noti centered-x">
+                        <div class="d-t-w-ripple">
+                            <div class="date-time-wrapper-noti">
+                                <div class="time-noti">12:00 <span style="font-size: 10px;">AM</span></div>
+                                <div class="date-noti">Sunday, Jan 1</div>
+                            </div>
+                            <!-- <div class="noti-icons"> -->
+                            <div class="noti-icons">
+                                <div class="icon-1 ml centered-y">
+                                    <svg fill="#fff" height="48" viewbox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                </div>
+                                <div class="icon-2 ml centered-y">
+                                    <svg fill="#fff" height="48" viewbox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 22h20V2z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                </div>
+                                <div class="icon-3 ml centered-y">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="-225 227 48 48" style="enable-background:new -225 227 48 48;" xml:space="preserve">
+                                        <style type="text/css">
+                                            .st0 {
+                                                fill: none;
+                                            }
+                                        </style>
+                                        <path class="st0" d="M-225,227h48v48h-48V227z" />
+                                        <path d="M-192,235.1h-4.3v-4h-10.2v4h-4.3c-1.9,0-3.4,1.2-3.4,2.7v30.7c0,1.5,1.5,2.7,3.4,2.7h18.7c1.9,0,3.4-1.2,3.4-2.7v-30.7  C-188.6,236.3-190.1,235.1-192,235.1z M-203.9,267.1v-11h-5.1l10.2-15v11h5.1L-203.9,267.1z" style="fill:#fff" />
+                                    </svg>
+                                </div>
+                                <div class="icon-4 ml centered-y">
+                                    <svg fill="#fff" height="48" viewBox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="noti-user ml centered-y">
+                                    <svg fill="#fff" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                    <div class="full-noti centered-x">
+                        <div class="full-noti-icons-wrapper">
+                            <div class="brightness-slider centered-x">
+                                <input class="slider" type="range" value="0" min="0" max="100" />
+                            </div>
+                            <div class="row-1 centered-x">
+                                <div class="wifi centered-y">
+                                    <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                    <span>Wi-Fi</span>
+                                </div>
+                                <div class="bluetooth centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M13 5.83l1.88 1.88-1.6 1.6 1.41 1.41 3.02-3.02L12 2h-1v5.03l2 2v-3.2zM5.41 4L4 5.41 10.59 12 5 17.59 6.41 19 11 14.41V22h1l4.29-4.29 2.3 2.29L20 18.59 5.41 4zM13 18.17v-3.76l1.88 1.88L13 18.17z" />
+                                    </svg>
+                                    <span>Bluetooth</span>
+                                </div>
+                            </div>
+                            <div class="row-2 centered-x">
+                                <div class="d-n-d centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0V0z" fill="none" />
+                                        <path d="M17 11v2h-1.46l4.68 4.68C21.34 16.07 22 14.11 22 12c0-5.52-4.48-10-10-10-2.11 0-4.07.66-5.68 1.78L13.54 11H17zM2.27 2.27L1 3.54l2.78 2.78C2.66 7.93 2 9.89 2 12c0 5.52 4.48 10 10 10 2.11 0 4.07-.66 5.68-1.78L20.46 23l1.27-1.27L11 11 2.27 2.27zM7 13v-2h1.46l2 2H7z"
+                                        />
+                                    </svg>
+                                    <span>Do-not-disturb</span>
+                                </div>
+                                <div class="network centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2 22h20V2z" fill-opacity=".3" />
+                                        <path d="M17 7L2 22h15z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                    <span>Cellone Punjab</span>
+                                </div>
+                                <div class="airplane-mode centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0zm0 0h24v24H0zm0 0h24v24H0z" fill="none" />
+                                        <path d="M13 9V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5v3.68l7.83 7.83L21 16v-2l-8-5zM3 5.27l4.99 4.99L2 14v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-3.73L18.73 21 20 19.73 4.27 4 3 5.27z" />
+                                    </svg>
+                                    <span>Airplane mode</span>
+                                </div>
+                            </div>
+                            <div class="row-3 centered-x">
+                                <div class="auto-rotate centered-y ">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M17 1.01L7 1c-1.1 0-1.99.9-1.99 2v18c0 1.1.89 2 1.99 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z" />
+                                    </svg>
+                                    <span>Auto rotate</span>
+                                </div>
+                                <div class="flashlight centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <defs>
+                                            <path d="M0 0h24v24H0V0z" id="a" />
+                                        </defs>
+                                        <clipPath id="b">
+                                            <use overflow="visible" xlink:href="#a" />
+                                        </clipPath>
+                                        <path clip-path="url(#b)" d="M6 14l3 3v5h6v-5l3-3V9H6zm5-12h2v3h-2zM3.5 5.875L4.914 4.46l2.12 2.122L5.62 7.997zm13.46.71l2.123-2.12 1.414 1.414L18.375 8z" />
+                                    </svg>
+                                    <span>Flashlight</span>
+                                </div>
+                                <div class="location centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                    </svg>
+                                    <span>Location</span>
+                                </div>
+                            </div>
+                            <div class="row-4 centered-x">
+                                <div class="cast centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none" opacity=".1" />
+                                        <path d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M21 3H3c-1.1 0-2 .9-2 2v3h2V5h18v14h-7v2h7c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM1 18v3h3c0-1.66-1.34-3-3-3zm0-4v2c2.76 0 5 2.24 5 5h2c0-3.87-3.13-7-7-7zm0-4v2c4.97 0 9 4.03 9 9h2c0-6.08-4.93-11-11-11z" />
+                                    </svg>
+                                    <span>Cast</span>
+                                </div>
+                                <div class="hotspot centered-y">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0zm0 0h24v24H0z" fill="none" />
+                                        <path d="M17.56 14.24c.28-.69.44-1.45.44-2.24 0-3.31-2.69-6-6-6-.79 0-1.55.16-2.24.44l1.62 1.62c.2-.03.41-.06.62-.06 2.21 0 4 1.79 4 4 0 .21-.02.42-.05.63l1.61 1.61zM12 4c4.42 0 8 3.58 8 8 0 1.35-.35 2.62-.95 3.74l1.47 1.47C21.46 15.69 22 13.91 22 12c0-5.52-4.48-10-10-10-1.91 0-3.69.55-5.21 1.47l1.46 1.46C9.37 4.34 10.65 4 12 4zM3.27 2.5L2 3.77l2.1 2.1C2.79 7.57 2 9.69 2 12c0 3.7 2.01 6.92 4.99 8.65l1-1.73C5.61 17.53 4 14.96 4 12c0-1.76.57-3.38 1.53-4.69l1.43 1.44C6.36 9.68 6 10.8 6 12c0 2.22 1.21 4.15 3 5.19l1-1.74c-1.19-.7-2-1.97-2-3.45 0-.65.17-1.25.44-1.79l1.58 1.58L10 12c0 1.1.9 2 2 2l.21-.02.01.01 7.51 7.51L21 20.23 4.27 3.5l-1-1z"
+                                        />
+                                    </svg>
+                                    <span>Hotspot</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lock-screen">
+                    <div class="date-time-wrapper">
+                        <div class="l-time">12:00</div>
+                        <div class="date">SUN, JAN 1</div>
+                    </div>
+                    <div class="f-message centered-x">Tap on scanner</div>
+                    <div class="lock-icons">
+                        <div class="l-btns centered">
+                            <div class="l-btn centered-y left">
+                                <svg fill="#fff" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                </svg>
+                            </div>
+                            <div class="l-btn centered middle">
+                                <svg fill="#fff" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.81 4.47c-.08 0-.16-.02-.23-.06C15.66 3.42 14 3 12.01 3c-1.98 0-3.86.47-5.57 1.41-.24.13-.54.04-.68-.2-.13-.24-.04-.55.2-.68C7.82 2.52 9.86 2 12.01 2c2.13 0 3.99.47 6.03 1.52.25.13.34.43.21.67-.09.18-.26.28-.44.28zM3.5 9.72c-.1 0-.2-.03-.29-.09-.23-.16-.28-.47-.12-.7.99-1.4 2.25-2.5 3.75-3.27C9.98 4.04 14 4.03 17.15 5.65c1.5.77 2.76 1.86 3.75 3.25.16.22.11.54-.12.7-.23.16-.54.11-.7-.12-.9-1.26-2.04-2.25-3.39-2.94-2.87-1.47-6.54-1.47-9.4.01-1.36.7-2.5 1.7-3.4 2.96-.08.14-.23.21-.39.21zm6.25 12.07c-.13 0-.26-.05-.35-.15-.87-.87-1.34-1.43-2.01-2.64-.69-1.23-1.05-2.73-1.05-4.34 0-2.97 2.54-5.39 5.66-5.39s5.66 2.42 5.66 5.39c0 .28-.22.5-.5.5s-.5-.22-.5-.5c0-2.42-2.09-4.39-4.66-4.39-2.57 0-4.66 1.97-4.66 4.39 0 1.44.32 2.77.93 3.85.64 1.15 1.08 1.64 1.85 2.42.19.2.19.51 0 .71-.11.1-.24.15-.37.15zm7.17-1.85c-1.19 0-2.24-.3-3.1-.89-1.49-1.01-2.38-2.65-2.38-4.39 0-.28.22-.5.5-.5s.5.22.5.5c0 1.41.72 2.74 1.94 3.56.71.48 1.54.71 2.54.71.24 0 .64-.03 1.04-.1.27-.05.53.13.58.41.05.27-.13.53-.41.58-.57.11-1.07.12-1.21.12zM14.91 22c-.04 0-.09-.01-.13-.02-1.59-.44-2.63-1.03-3.72-2.1-1.4-1.39-2.17-3.24-2.17-5.22 0-1.62 1.38-2.94 3.08-2.94 1.7 0 3.08 1.32 3.08 2.94 0 1.07.93 1.94 2.08 1.94s2.08-.87 2.08-1.94c0-3.77-3.25-6.83-7.25-6.83-2.84 0-5.44 1.58-6.61 4.03-.39.81-.59 1.76-.59 2.8 0 .78.07 2.01.67 3.61.1.26-.03.55-.29.64-.26.1-.55-.04-.64-.29-.49-1.31-.73-2.61-.73-3.96 0-1.2.23-2.29.68-3.24 1.33-2.79 4.28-4.6 7.51-4.6 4.55 0 8.25 3.51 8.25 7.83 0 1.62-1.38 2.94-3.08 2.94s-3.08-1.32-3.08-2.94c0-1.07-.93-1.94-2.08-1.94s-2.08.87-2.08 1.94c0 1.71.66 3.31 1.87 4.51.95.94 1.86 1.46 3.27 1.85.27.07.42.35.35.61-.05.23-.26.38-.47.38z"
+                                    />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                </svg>
+                            </div>
+                            <div class="l-btn centered-y right">
+                                <svg fill="#fff" height="20" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="3.2" />
+                                    <path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z" />
+                                    <path d="M0 0h24v24H0z" fill="none" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-page">
+
+                </div>
+                <div class="status">
+                    <div class="icons centered-y">
+                        <div class="icon-1 centered-y">
+                            <svg fill="#fff" height="48" viewbox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.01 21.49L23.64 7c-.45-.34-4.93-4-11.64-4C5.28 3 .81 6.66.36 7l11.63 14.49.01.01.01-.01z" />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </div>
+                        <div class="icon-2 centered-y">
+                            <svg fill="#fff" height="48" viewbox="0 0 24 24" width="48" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2 22h20V2z" />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </div>
+                        <div class="icon-3 centered-y">
+                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="-225 227 48 48" style="enable-background:new -225 227 48 48;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0 {
+                                        fill: none;
+                                    }
+                                </style>
+                                <path class="st0" d="M-225,227h48v48h-48V227z" />
+                                <path d="M-192,235.1h-4.3v-4h-10.2v4h-4.3c-1.9,0-3.4,1.2-3.4,2.7v30.7c0,1.5,1.5,2.7,3.4,2.7h18.7c1.9,0,3.4-1.2,3.4-2.7v-30.7  C-188.6,236.3-190.1,235.1-192,235.1z M-203.9,267.1v-11h-5.1l10.2-15v11h5.1L-203.9,267.1z" style="fill:#fff" />
+                            </svg>
+                        </div>
+                        <div class="time">12:00</div>
+                        <div class="user centered-y">
+                            <svg fill="#fff" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z" />
+                                <path d="M0 0h24v24H0z" fill="none" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="search centered-x">
+                    <input type="text" placeholder="Say Ok Google..." class="centered s-box">
+                    <div class="full-search-logo">
+
+                        <svg id="svg2" viewbox="0 0 1000 335" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" class="centered-y">
+                            <path id="path2998" fill="#4885ed" d="m246.11 116.18h-116.57v34.591h82.673c-4.0842 48.506-44.44 69.192-82.533 69.192-48.736 0-91.264-38.346-91.264-92.092 0-52.357 40.54-92.679 91.371-92.679 39.217 0 62.326 25 62.326 25l24.22-25.081s-31.087-34.608-87.784-34.608c-72.197-0.001-128.05 60.933-128.05 126.75 0 64.493 52.539 127.38 129.89 127.38 68.031 0 117.83-46.604 117.83-115.52 0-14.539-2.1109-22.942-2.1109-22.942z"
+                            />
+                            <path id="path3000" fill="#db3236" d="m341.6 91.129c-47.832 0-82.111 37.395-82.111 81.008 0 44.258 33.249 82.348 82.673 82.348 44.742 0 81.397-34.197 81.397-81.397 0-54.098-42.638-81.959-81.959-81.959zm0.47563 32.083c23.522 0 45.812 19.017 45.812 49.66 0 29.993-22.195 49.552-45.92 49.552-26.068 0-46.633-20.878-46.633-49.79 0-28.292 20.31-49.422 46.741-49.422z"
+                            />
+                            <path id="path3005" fill="#f4c20d" d="m520.18 91.129c-47.832 0-82.111 37.395-82.111 81.008 0 44.258 33.249 82.348 82.673 82.348 44.742 0 81.397-34.197 81.397-81.397 0-54.098-42.638-81.959-81.959-81.959zm0.47562 32.083c23.522 0 45.812 19.017 45.812 49.66 0 29.993-22.195 49.552-45.92 49.552-26.068 0-46.633-20.878-46.633-49.79 0-28.292 20.31-49.422 46.741-49.422z"
+                            />
+                            <path id="path3007" fill="#4885ed" d="m695.34 91.215c-43.904 0-78.414 38.453-78.414 81.613 0 49.163 40.009 81.765 77.657 81.765 23.279 0 35.657-9.2405 44.796-19.847v16.106c0 28.18-17.11 45.055-42.936 45.055-24.949 0-37.463-18.551-41.812-29.078l-31.391 13.123c11.136 23.547 33.554 48.103 73.463 48.103 43.652 0 76.922-27.495 76.922-85.159v-146.77h-34.245v13.836c-10.53-11.347-24.93-18.745-44.04-18.745zm3.178 32.018c21.525 0 43.628 18.38 43.628 49.768 0 31.904-22.056 49.487-44.104 49.487-23.406 0-45.185-19.005-45.185-49.184 0-31.358 22.619-50.071 45.66-50.071z"
+                            />
+                            <path id="path3011" fill="#db3236" d="m925.89 91.02c-41.414 0-76.187 32.95-76.187 81.57 0 51.447 38.759 81.959 80.165 81.959 34.558 0 55.768-18.906 68.426-35.845l-28.235-18.787c-7.3268 11.371-19.576 22.484-40.018 22.484-22.962 0-33.52-12.574-40.061-24.754l109.52-45.444-5.6859-13.318c-10.58-26.08-35.26-47.86-67.92-47.86zm1.4268 31.413c14.923 0 25.663 7.9342 30.224 17.447l-73.139 30.57c-3.1532-23.667 19.269-48.017 42.915-48.017z"
+                            />
+                            <path id="path3015" fill="#3cba54" d="m797.49 249.7h35.975v-240.75h-35.975z" />
+                        </svg>
+                    </div>
+                    <div class="mini-search-logo">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve" class="centered-y">
+                            <g>
+                                <path fill="#FFFFFF" d="M142.9,24.2C97.6,39.7,59,73.6,37.5,116.5c-7.5,14.8-12.9,30.5-16.2,46.8c-8.2,40.4-2.5,83.5,16.1,120.3
+                            c12.1,24,29.5,45.4,50.5,62.1c19.9,15.8,43,27.6,67.6,34.1c31,8.3,64,8.1,95.2,1c28.2-6.5,54.9-20,76.2-39.6
+                            c22.5-20.7,38.6-47.9,47.1-77.2c9.3-31.9,10.5-66,4.7-98.8c-58.3,0-116.7,0-175,0c0,24.2,0,48.4,0,72.6c33.8,0,67.6,0,101.4,0
+                            c-3.9,23.2-17.7,44.4-37.2,57.5c-12.3,8.3-26.4,13.6-41,16.2c-14.6,2.5-29.8,2.8-44.4-0.1c-14.9-3-29-9.2-41.4-17.9
+                            c-19.8-13.9-34.9-34.2-42.6-57.1c-7.9-23.3-8-49.2,0-72.4c5.6-16.4,14.8-31.5,27-43.9c15-15.4,34.5-26.4,55.6-30.9
+                            c18-3.8,37-3.1,54.6,2.2c15,4.5,28.8,12.8,40.1,23.6c11.4-11.4,22.8-22.8,34.2-34.2c6-6.1,12.3-12,18.1-18.3
+                            c-17.3-16-37.7-28.9-59.9-37.1C228.2,10.6,183.2,10.3,142.9,24.2z" />
+                                <g>
+                                    <path fill="#EA4335" d="M142.9,24.2c40.2-13.9,85.3-13.6,125.3,1.1c22.2,8.2,42.5,21,59.9,37.1c-5.8,6.3-12.1,12.2-18.1,18.3
+                                c-11.4,11.4-22.8,22.8-34.2,34.2c-11.3-10.8-25.1-19-40.1-23.6c-17.6-5.3-36.6-6.1-54.6-2.2c-21,4.5-40.5,15.5-55.6,30.9
+                                c-12.2,12.3-21.4,27.5-27,43.9c-20.3-15.8-40.6-31.5-61-47.3C59,73.6,97.6,39.7,142.9,24.2z" />
+                                </g>
+                                <g>
+                                    <path fill="#FBBC05" d="M21.4,163.2c3.3-16.2,8.7-32,16.2-46.8c20.3,15.8,40.6,31.5,61,47.3c-8,23.3-8,49.2,0,72.4
+                                c-20.3,15.8-40.6,31.6-60.9,47.3C18.9,246.7,13.2,203.6,21.4,163.2z" />
+                                </g>
+                                <g>
+                                    <path fill="#4285F4" d="M203.7,165.1c58.3,0,116.7,0,175,0c5.8,32.7,4.5,66.8-4.7,98.8c-8.5,29.3-24.6,56.5-47.1,77.2
+                                c-19.7-15.3-39.4-30.6-59.1-45.9c19.5-13.1,33.3-34.3,37.2-57.5c-33.8,0-67.6,0-101.4,0C203.7,213.5,203.7,189.3,203.7,165.1z" />
+                                </g>
+                                <g>
+                                    <path fill="#34A853" d="M37.5,283.5c20.3-15.7,40.6-31.5,60.9-47.3c7.8,22.9,22.8,43.2,42.6,57.1c12.4,8.7,26.6,14.9,41.4,17.9
+                                c14.6,3,29.7,2.6,44.4,0.1c14.6-2.6,28.7-7.9,41-16.2c19.7,15.3,39.4,30.6,59.1,45.9c-21.3,19.7-48,33.1-76.2,39.6
+                                c-31.2,7.1-64.2,7.3-95.2-1c-24.6-6.5-47.7-18.2-67.6-34.1C67,328.9,49.6,307.5,37.5,283.5z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="mic centered-y"></div>
+                </div>
+                <div class="dock">
+                    <div class="phone">
+                        <img src="assets/icons/phone.png" alt="" />
+                    </div>
+                    <div class="app-drawer centered">
+                        <div class="apps">
+                            <div class="app">
+                                <img src="assets/icons/calculator.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/youtube.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/phone.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/keep.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/calendar.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/camera.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/chrome.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/clock.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/contacts.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/docs.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/drive.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/facebook.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/facebookmessenger.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/firefox.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/fit.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/flipboard.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/flud.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/gallery.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/google.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/googleplus.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/hangouts.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/maps.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/musicxmatch.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/mxplayer.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/newsstand.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/photos.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/playmusic.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/reddit.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/skype.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/snapseed.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/settings.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/solidexplorer.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/translate.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/speedtest.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/supersu.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/twitter.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/whatsapp.png" alt="" />
+                            </div>
+                            <div class="app">
+                                <img src="assets/icons/weather.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="camera ">
+                        <img src="assets/icons/camera.png" alt="" />
+                    </div>
+                </div>
+                <div class="nav ">
+                    <div class="btns centered ">
+                        <div class="ripple ">
+                            <div class="btn-1 centered "></div>
+                        </div>
+                        <div class="ripple ">
+                            <div class="btn-2 centered "></div>
+                        </div>
+                        <div class="ripple third ">
+                            <div class="btn-3 centered "></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recents centered ">
+                    <p class="centered ">Your recent screens appear here
+                    </p>
+                </div>
+            </section>
+            <div class="f-print centered-x "></div>
+        </div>
+    </div>
+</body>
+
+<script src="jquery.min.js ">
+</script>
+
+<script src="functions.js ">
+</script>
+
+</html>
