@@ -69,6 +69,10 @@
     bottom: 8px;
 }
 
+.f-print:active {
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
 
 /*----------------------------lock-screen-----------------------------*/
 
@@ -208,8 +212,7 @@
     left: 12px;
 }
 
-.time-noti,
-.date-noti {
+.time-noti, .date-noti {
     /*display: inline-block;*/
     font-size: 10px;
     font-weight: 500;
@@ -261,17 +264,11 @@
     height: 25px;
 }
 
-.icon-1,
-.icon-2,
-.icon-3,
-.icon-4 {
+.icon-1, .icon-2, .icon-3, .icon-4 {
     display: inline-block;
 }
 
-.icon-1 svg,
-.icon-2 svg,
-.icon-3 svg,
-.icon-4 svg {
+.icon-1 svg, .icon-2 svg, .icon-3 svg, .icon-4 svg {
     width: 14px;
     height: 14px;
     display: block;
@@ -297,8 +294,7 @@
     font-weight: 500;
 }
 
-.user,
-.noti-user {
+.user, .noti-user {
     display: inline-block;
     margin-right: 6px;
     width: 14px;
@@ -348,8 +344,7 @@ input.s-box[type=text]:focus {
     outline: none;
 }
 
-.full-search-logo,
-.mini-search-logo {
+.full-search-logo, .mini-search-logo {
     height: 100%;
 }
 
@@ -382,8 +377,7 @@ input.s-box[type=text]:focus {
     bottom: 40px;
 }
 
-.phone,
-.camera {
+.phone, .camera {
     width: 35px;
     height: 35px;
     position: absolute;
@@ -395,8 +389,7 @@ input.s-box[type=text]:focus {
     height: 35px;
 }
 
-.phone:active,
-.camera:active {
+.phone:active, .camera:active {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -562,9 +555,7 @@ input.s-box[type=text]:focus {
     border-radius: 20px;
 }
 
-.btn-1,
-.btn-2,
-.btn-3 {
+.btn-1, .btn-2, .btn-3 {
     display: inline-block;
     background: rgba(0, 0, 0, 0);
     border: 2px solid white;
@@ -606,10 +597,7 @@ input.s-box[type=text]:focus {
     position: relative;
 }
 
-.row-1,
-.row-2,
-.row-3,
-.row-4 {
+.row-1, .row-2, .row-3, .row-4 {
     width: 90%;
     height: 55px;
     /*background: yellowgreen;*/
@@ -617,23 +605,13 @@ input.s-box[type=text]:focus {
     top: 6px;
 }
 
-.wifi,
-.bluetooth,
-.d-n-d,
-.network,
-.airplane-mode,
-.auto-rotate,
-.flashlight,
-.location,
-.cast,
-.hotspot {
+.wifi, .bluetooth, .d-n-d, .network, .airplane-mode, .auto-rotate, .flashlight, .location, .cast, .hotspot {
     display: inline-block;
     width: 16px;
     margin: 0 38.3px;
 }
 
-.wifi::after,
-.bluetooth::after {
+.wifi::after, .bluetooth::after {
     content: ' ';
     width: 90px;
     height: 1px;
@@ -645,35 +623,16 @@ input.s-box[type=text]:focus {
     transform: translateX(-50%);
 }
 
-.auto-rotate,
-.flashlight,
-.location,
-.d-n-d,
-.network,
-.airplane-mode {
+.auto-rotate, .flashlight, .location, .d-n-d, .network, .airplane-mode {
     margin: 0 21.9px;
 }
 
-.wifi svg,
-.bluetooth svg,
-.d-n-d svg,
-.network svg,
-.airplane-mode svg,
-.auto-rotate svg,
-.flashlight svg,
-.location svg,
-.cast svg,
-.hotspot svg {
+.wifi svg, .bluetooth svg, .d-n-d svg, .network svg, .airplane-mode svg, .auto-rotate svg, .flashlight svg, .location svg, .cast svg, .hotspot svg {
     width: 16px;
     fill: white;
 }
 
-.bluetooth svg,
-.d-n-d svg,
-.airplane-mode svg,
-.flashlight svg,
-.hotspot svg,
-.cast svg {
+.bluetooth svg, .d-n-d svg, .airplane-mode svg, .flashlight svg, .hotspot svg, .cast svg {
     fill: #9E9E9E;
 }
 
@@ -692,10 +651,7 @@ input.s-box[type=text]:focus {
     right: -24px;
 }
 
-.bluetooth span,
-.flashlight span,
-.location span,
-.hotspot span {
+.bluetooth span, .flashlight span, .location span, .hotspot span {
     right: -33px;
 }
 
