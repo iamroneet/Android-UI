@@ -4,6 +4,12 @@
     font-family: 'roboto';
     cursor: default;
     color: white;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none;
 }
 
 .centered-x {
@@ -697,3 +703,5 @@ input.slider[type=range]:focus::-webkit-slider-runnable-track {
 
 
 /*-------------full-noti-icon-end---------------*/
+
+on-end---------------*/
