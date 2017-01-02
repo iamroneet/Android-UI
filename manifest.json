@@ -2,23 +2,23 @@
   "name": "Android UI",
   "short_name": "Android UI",
   "icons": [{
-    "src": "fav.ico",
+    "src": "assets/fav.ico",
       "sizes": "128x128",
       "type": "image/png"
     }, {
-      "src": "fav.ico",
+      "src": "assets/assets/fav.ico",
       "sizes": "144x144",
       "type": "image/png"
     }, {
-      "src": "fav.ico",
+      "src": "assets/fav.ico",
       "sizes": "152x152",
       "type": "image/png"
     }, {
-      "src": "fav.ico",
+      "src": "assets/fav.ico",
       "sizes": "192x192",
       "type": "image/png"
     }, {
-      "src": "fav.ico",
+      "src": "assets/fav.ico",
       "sizes": "256x256",
       "type": "image/png"
     }],

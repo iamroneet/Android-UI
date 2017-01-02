@@ -145,6 +145,7 @@
     font-size: 10px;
     text-align: center;
     color: white;
+    display: none;
 }
 
 .recents p {
@@ -155,6 +156,7 @@
     position: absolute;
     z-index: 2;
     overflow: hidden;
+    display: none;
     /*transition: all 0.4s ease-in-out;*/
 }
 
@@ -285,6 +287,7 @@
     top: 24px;
     right: 32px;
     margin: 0px;
+    display: none;
 }
 
 .b-ml {
@@ -318,6 +321,7 @@
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+    display: none;
 }
 
 input.s-box {
@@ -381,6 +385,7 @@ input.s-box[type=text]:focus {
     height: 40px;
     position: fixed;
     bottom: 40px;
+    display: none;
 }
 
 .phone, .camera {
@@ -540,6 +545,7 @@ input.s-box[type=text]:focus {
     width: 100%;
     height: 35px;
     z-index: 2;
+    display: none;
 }
 
 .btns {
@@ -703,5 +709,3 @@ input.slider[type=range]:focus::-webkit-slider-runnable-track {
 
 
 /*-------------full-noti-icon-end---------------*/
-
-on-end---------------*/

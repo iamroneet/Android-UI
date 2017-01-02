@@ -1,4 +1,4 @@
-$('.search, .dock, .nav, .time, .f-message, .noti-wrapper, .recents, .icon-4').hide();
+$('.time, .f-message').hide();
 
 $(function() {
 
